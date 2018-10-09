@@ -33,5 +33,12 @@
     "start": "node index.js",
     "test": "mocha",
     "prepare-lambda-script": "webpack && rm -f redash-to-google-sheets.zip && zip redash-to-google-sheets.zip -r ./redash-to-google-sheets.js && rm -f redash-to-google-sheets.js"
-  }
+  },
+  "files": [
+    "lib/*",
+    ".env",
+    "config.js",
+    "index.js",
+    "lambda.js"
+  ]
 }

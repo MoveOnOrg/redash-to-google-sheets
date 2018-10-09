@@ -1,3 +1,4 @@
+require('dotenv').load();
 const { google } = require('googleapis');
 const googleAuth = require('./lib/google-auth');
 const queryToSheet = require('./lib/query-to-sheet');
