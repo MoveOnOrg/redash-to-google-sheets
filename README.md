@@ -26,7 +26,7 @@ This Node.js script fetches Redash query results and inserts them into a specifi
 
 6. Run `npm i` from within the project directory root.
 
-7. Copy `config.example.js` to `config.js` and enter appropriate `redashCsvUrl`, `spreadsheetId`, and `sheetId` values. It's an array of config objects so you can run multiple query to spreadsheet syncs.
+7. Copy `config.example.js` to `config.js` and enter appropriate `redashCsvUrl`, `spreadsheetId`, and `sheetId` values. It's an array of config objects so you can run multiple query to spreadsheet syncs.  `redashCsvUrl` should probably be an http:// URL, unless you want to edit this program so it can use the VPN certificate.
 
       * [See Redash docs for getting "Results in CSV format" query URL with API Key](https://redash.io/help/user-guide/querying/download-query-results)
 
