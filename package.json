@@ -16,14 +16,14 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-import": "^2.22.0",
     "mocha": "^8.0.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
-    "webpack-common-shake": "^2.0.1"
+    "webpack-common-shake": "^2.1.0"
   },
   "dependencies": {
-    "dotenv": "^6.0.0",
+    "dotenv": "^6.2.0",
     "googleapis": "^52.1.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.8"
