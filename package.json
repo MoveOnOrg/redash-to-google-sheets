@@ -1,7 +1,7 @@
 {
   "name": "redash-to-google-sheets",
   "version": "1.0.0",
-  "description": "Redash query data via Google Sheets API",
+  "description": "Send Redash query data through Google Sheets API",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -10,17 +10,8 @@
   "author": "Cody Gordon",
   "license": "MIT",
   "engines": {
-    "node": "v8.10.0",
-    "npm": "v5.6.0"
-  },
-  "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.22.0",
-    "mocha": "^8.0.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12",
-    "webpack-common-shake": "^2.1.0"
+    "node": "v12.18.2",
+    "npm": "v6.13.4"
   },
   "dependencies": {
     "dotenv": "^6.2.0",

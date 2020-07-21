@@ -42,15 +42,10 @@ This Node.js script fetches Redash query results and inserts them into a specifi
 
 
 ### Amazon Lambda
-
-Running `npm run prepare-lambda-script` from within a working local install will generate a `redash-to-google-sheets.zip` file that can be uploaded and run on Amazon Lambda. This file is built using Webpack in order to tree-shake and minify.
-
+From the command line, install Claudia, then run:
+`claudia create --region $region --handler lambda.handler --role $role`
 #### Make sure to:
 
-1. Set your Lambda Node.js version to v8.10.0
-
-2. Enter your `GOOGLE_CLIENT_EMAIL` and `GOOGLE_PRIVATE_KEY` values into your [Lambda Environment Variables](https://docs.aws.amazon.com/lambda/latest/dg/env_variables.html). The `.env` file is not contained in the deployment .zip file.
-
-3. The config.js file is also not deployed to Lambda, so you will need to add `event.config` containing a single object with config values (see above). Each query to spreadsheet sync needs to be it's own event configuration.
+1. Set your Lambda Node.js version to v12.x
 
 4. Configure Lambda to have access to VPN resources if Redash is hosted behind VPN.
