@@ -10,8 +10,8 @@
   "author": "Cody Gordon",
   "license": "MIT",
   "engines": {
-    "node": "v8.10.0",
-    "npm": "v5.6.0"
+    "node": "v12.16.1",
+    "npm": "v6.13.4"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
