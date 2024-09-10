@@ -1,8 +1,10 @@
 # [DEPRECATED] Redash to Google Sheets
 
-THIS CODE IS OUT OF DATE AND NOT MAINTAINED. It also has a complex setup and requires configuration in a lot of different places.
+*This repo is not maintained. It also has a complex setup and requires configuration in a lot of different places.*
 
-Please use the python-based redash-uploader (https://github.com/MoveOnOrg/redash-uploader)
+**Please use the python-based redash-uploader (https://github.com/MoveOnOrg/redash-uploader)**
+
+----
 
 This Node.js script fetches Redash query results and inserts them into a specified Google Sheet via API.
 
