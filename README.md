@@ -1,6 +1,6 @@
-# Redash to Google Sheets
+# [DEPRECATED] Redash to Google Sheets
 
-THIS CODE IS OUT OF DATE AND POORLY MAINTAINED. It also has a complex setup and requires configuration in a lot of different places.
+THIS CODE IS OUT OF DATE AND NOT MAINTAINED. It also has a complex setup and requires configuration in a lot of different places.
 
 Please use the python-based redash-uploader (https://github.com/MoveOnOrg/redash-uploader)
 
